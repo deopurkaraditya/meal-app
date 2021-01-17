@@ -6,5 +6,9 @@ class Category {
   final String title;
   final Color color;
 
-const Category({@required this.id, @required this.title, @required this.color = Colors.orange});
+  const Category({
+    @required this.id,
+    @required this.title,
+    this.color = Colors.orange,
+  });
 }
